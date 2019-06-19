@@ -4,11 +4,15 @@ cat data.txt | python mapper.py | sort -k1,1 | python reducer.py
 
 
 # data.txt
+On suppose que les donnees ont ete prealablement merge avec le nom du fichier auxquel il appartient devant
+========================================
 A       toto tata tete tutu
 A       toto tota tyty
 B       titi
 A       titi toto
 B       tato
+========================================
+
 '''
 
 # mapper.py

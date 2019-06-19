@@ -26,12 +26,6 @@ for line in sys.stdin:
 # reducer.py
 import sys
 
-def take_value(key,res_a,res_b):
-	if key in res_a :
-		return True 
-	else:
-		return False
-
 def set_value(typee,value):
 	if value in res:
 		if typee ==  "B":
